@@ -1,6 +1,8 @@
 # Text-SemiSeg
 Official code for "[Text-driven Multiplanar Visual Interaction for Semi-supervised Medical Image Segmentation](https://arxiv.org/pdf/2507.12382)", which has been **early accepted in MICCAI 2025**, and the code will be released soon.
 
+![The proposed Text-SemiSeg framework](./Figure/model.jpg)
+
 ## Dataset
 The data can be obtained from [Pancreas-CT](https://drive.google.com/drive/folders/1kQX8z34kF62ZF_1-DqFpIosB4zDThvPz?usp=sharing) and [BraTS](https://github.com/HiLab-git/SSL4MIS/tree/master/data/BraTS2019)
 
