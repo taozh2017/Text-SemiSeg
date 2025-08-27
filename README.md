@@ -14,16 +14,28 @@ pip install -r requirements.txt
 ## Dataset
 The data can be obtained from [Pancreas-CT](https://drive.google.com/drive/folders/1kQX8z34kF62ZF_1-DqFpIosB4zDThvPz?usp=sharing) and [BraTS](https://github.com/HiLab-git/SSL4MIS/tree/master/data/BraTS2019)
 
+To facilitate the rapid validation of our method, we provide a compressed package of the **Pancreas dataset** under the `data_3D` directory.  
+After decompression, please place the dataset into the `data_3D` folder to ensure the directory structure is organized as follows:
+
+```bash
+data_3D/
+└── Pancreas/
+    └── Pancreas_h5
+    └── train.list
+    └── test.list
+```
+
+
 ## Training
 To train the model on a dataset, execute:
 ```bash
-python train.py
+python train.py --data_path ./data_3D --dataset /Pancreas
 ```
 
 ## Prediction
 After training, you can make predictions using:
 ```bash
-python prediction.py
+python prediction.py  --data_path ./data_3D --dataset /Pancreas --model_path "best_weight.pth"
 ```
 
 ## Acknowledgements
