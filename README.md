@@ -12,10 +12,10 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
-The data can be obtained from [Pancreas-CT](https://drive.google.com/drive/folders/1kQX8z34kF62ZF_1-DqFpIosB4zDThvPz?usp=sharing) and [BraTS](https://github.com/HiLab-git/SSL4MIS/tree/master/data/BraTS2019)
+The original data can be obtained from [Pancreas-CT](https://drive.google.com/drive/folders/1kQX8z34kF62ZF_1-DqFpIosB4zDThvPz?usp=sharing) and [BraTS](https://github.com/HiLab-git/SSL4MIS/tree/master/data/BraTS2019)
 
-To facilitate the rapid validation of our method, we provide a compressed package of the **Pancreas dataset** under the `data_3D` directory.  
-After decompression, please place the dataset into the `data_3D` folder to ensure the directory structure is organized as follows:
+To facilitate rapid validation of our method, we provide a download link for the [pre-processed Pancreas-CT](https://drive.google.com/file/d/11uWmtHqnWyNtwptaGLkh9IOVUV_wlfGJ/view?usp=drive_link) dataset.
+Please place the dataset into the `data_3D` folder to ensure the directory structure is organized as follows:
 
 ```bash
 data_3D/
